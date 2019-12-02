@@ -1,0 +1,22 @@
+{
+  "name": "YUTableLayoutView",
+  "version": "0.1.0",
+  "summary": "A short description of YUTableLayoutView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Yanyuxxxx/YUTableLayoutView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yanyuxxxx": "812363941@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Yanyuxxxx/YUTableLayoutView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YUTableLayoutView/Classes/**/*"
+}

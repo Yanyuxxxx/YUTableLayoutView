@@ -1,0 +1,16 @@
+PODS:
+  - YUTableLayoutView (0.1.0)
+
+DEPENDENCIES:
+  - YUTableLayoutView (from `../`)
+
+EXTERNAL SOURCES:
+  YUTableLayoutView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YUTableLayoutView: 6e208de0f45fdecf5a0b6f03c0d20e9706bc3ddb
+
+PODFILE CHECKSUM: b080f546d2e25803e506b13774ac4a51499736c6
+
+COCOAPODS: 1.8.4

@@ -18,7 +18,7 @@
 		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B8B3C7F5AB6F00175FED72FF1FB01BD /* Pods-YUTableLayoutView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB5E6624EA1C69A91982156B094FC99 /* Pods-YUTableLayoutView_Example-dummy.m */; };
+		4B8B3C7F5AB6F00175FED72FF1FB01BD /* Pods-YUTableLayoutView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA1945FF630F52F60AD54DC3F0BCFAB /* Pods-YUTableLayoutView_Example-dummy.m */; };
 		53464CB25E701F6F0539BECB75915A51 /* YUTableLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49587E33DA7C59078ADCBBC8A8538C7B /* YUTableLayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5418BC0B28D0A285D34997C78E4ADC39 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,14 +28,13 @@
 		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
 		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
 		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
-		8B416B41BD8741CCD68CD6C6D20CF2F9 /* Pods-YUTableLayoutView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6464DD5EE246F3F69B106D1F92575FF4 /* Pods-YUTableLayoutView_Tests-dummy.m */; };
 		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
-		B11C2B44E071D4871F54EC7EA6C3698D /* Pods-YUTableLayoutView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1F6B1825D637E16372F02EB01FCE61 /* Pods-YUTableLayoutView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11C2B44E071D4871F54EC7EA6C3698D /* Pods-YUTableLayoutView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D445DEA9F94998020AE092AA7870EBAA /* Pods-YUTableLayoutView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
 		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		C4892B1CF9DD26013F0EA3426C5D2A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
@@ -45,19 +44,10 @@
 		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
 		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F05E12A6F02B4229B9E580FC60411B89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE066191E9B72735DBFA963B7273D8B3 /* Pods-YUTableLayoutView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B32477D9E67A7A72DE9C0A3D02898F5 /* Pods-YUTableLayoutView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4DA3A8057C08161E8020331A9B38431C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6870819B2B77DB1A5F43DA77C7A7B5AD;
-			remoteInfo = "Pods-YUTableLayoutView_Example";
-		};
 		74D701EFB9E26F4CBC29C9DD0C9F2DE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -87,79 +77,62 @@
 		0244BFEFF86D4E83CA131544B5D7298F /* YUTableLayoutView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YUTableLayoutView-umbrella.h"; sourceTree = "<group>"; };
 		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		0B32477D9E67A7A72DE9C0A3D02898F5 /* Pods-YUTableLayoutView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YUTableLayoutView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0909DD29672016EA461A4635D3AE264D /* Pods-YUTableLayoutView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUTableLayoutView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0D5EA6D208DF8E383533E42D93BED77F /* YUTableLayoutView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YUTableLayoutView-Info.plist"; sourceTree = "<group>"; };
 		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		1BB5E6624EA1C69A91982156B094FC99 /* Pods-YUTableLayoutView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YUTableLayoutView_Example-dummy.m"; sourceTree = "<group>"; };
-		1C5B13804926F62C0B0E51E3D5B18C58 /* Pods-YUTableLayoutView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YUTableLayoutView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20BB2C9506931D1B8DCD8E50ED801733 /* Pods-YUTableLayoutView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YUTableLayoutView_Tests.modulemap"; sourceTree = "<group>"; };
 		28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		310D3263E4869C23BE0D3659B4D1244D /* Pods-YUTableLayoutView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUTableLayoutView_Tests-Info.plist"; sourceTree = "<group>"; };
 		32A5FF942463CB9D12D0421C0D112526 /* Pods_YUTableLayoutView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YUTableLayoutView_Example.framework; path = "Pods-YUTableLayoutView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3380CA8DF379DED202F22036F829EE4C /* Pods-YUTableLayoutView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YUTableLayoutView_Example.modulemap"; sourceTree = "<group>"; };
 		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		49587E33DA7C59078ADCBBC8A8538C7B /* YUTableLayoutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUTableLayoutView.h; path = YUTableLayoutView/Classes/YUTableLayoutView.h; sourceTree = "<group>"; };
+		4D6A1F22AD6702ED7491D48299F8B2C2 /* Pods-YUTableLayoutView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YUTableLayoutView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		580030EDA3D7E7702FE436FDD85BFB71 /* Pods-YUTableLayoutView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUTableLayoutView_Example-Info.plist"; sourceTree = "<group>"; };
 		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		600DFD1968B7D1DD541090107697AE22 /* YUTableLayoutView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YUTableLayoutView.xcconfig; sourceTree = "<group>"; };
 		621DC65F2062AC0784EA000557316AB9 /* YUTableLayoutView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YUTableLayoutView.framework; path = YUTableLayoutView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		62226D76294C1DCB1B9FADE6AEB08247 /* Pods-YUTableLayoutView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUTableLayoutView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		6464DD5EE246F3F69B106D1F92575FF4 /* Pods-YUTableLayoutView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YUTableLayoutView_Tests-dummy.m"; sourceTree = "<group>"; };
 		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B469077F7E56DBC3E545217C7E89271 /* Pods-YUTableLayoutView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUTableLayoutView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		72768F36987860A1B55B3675013E03FB /* YUTableLayoutView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YUTableLayoutView.modulemap; sourceTree = "<group>"; };
 		73574C42B42CEFC897262B58118BA01D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		74FF219BAB7D0F80F65DF29F5DE69817 /* Pods-YUTableLayoutView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YUTableLayoutView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F4846FF51ECC4EB6858EEF90AB7D0C5 /* Pods-YUTableLayoutView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUTableLayoutView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		830110A791D0B0EC381AF563AA121081 /* YUTableLayoutView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YUTableLayoutView-dummy.m"; sourceTree = "<group>"; };
 		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		8C7AF14585FB1A2B217CAFC6347BB592 /* Pods-YUTableLayoutView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUTableLayoutView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		8EC98F0A4A92436D9E2E0E01C5D17CC3 /* Pods-YUTableLayoutView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUTableLayoutView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFD011D15423FD256883A6390AA7FED /* YUTableLayoutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUTableLayoutView.m; path = YUTableLayoutView/Classes/YUTableLayoutView.m; sourceTree = "<group>"; };
-		A0DFD823B6AE1BC504EE6B43503DE2CA /* Pods-YUTableLayoutView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUTableLayoutView_Example-Info.plist"; sourceTree = "<group>"; };
 		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		AAE8C638844ADB13CA7135B802DA2D3D /* Pods-YUTableLayoutView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUTableLayoutView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		BB6392EE8EEE51E0F778FDA8734C9DBB /* YUTableLayoutView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YUTableLayoutView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF990735BFA6C1C1B4EE07D794473070 /* Pods-YUTableLayoutView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUTableLayoutView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C62CC269A46EBB9E8601CD6DDD5D6605 /* Pods-YUTableLayoutView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUTableLayoutView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BCA1945FF630F52F60AD54DC3F0BCFAB /* Pods-YUTableLayoutView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YUTableLayoutView_Example-dummy.m"; sourceTree = "<group>"; };
 		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		CF477CA6C4A95F9F522D132F930F7617 /* Pods-YUTableLayoutView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUTableLayoutView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDF98D8435E0F9A5C58A26444DDBDA0D /* Pods-YUTableLayoutView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YUTableLayoutView_Example.modulemap"; sourceTree = "<group>"; };
 		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D445DEA9F94998020AE092AA7870EBAA /* Pods-YUTableLayoutView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YUTableLayoutView_Example-umbrella.h"; sourceTree = "<group>"; };
 		DB927BAAFA712DD58139F4600DB63A87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DD951930A86B49E3A2BBBB615863511B /* Pods-YUTableLayoutView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUTableLayoutView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		E0635796D56E4A163EA9F780196FCDCF /* Pods_YUTableLayoutView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YUTableLayoutView_Tests.framework; path = "Pods-YUTableLayoutView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		FE1F6B1825D637E16372F02EB01FCE61 /* Pods-YUTableLayoutView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YUTableLayoutView_Example-umbrella.h"; sourceTree = "<group>"; };
 		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30BCA299D9B7CEFC0BF94FA1D12B8B08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F05E12A6F02B4229B9E580FC60411B89 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,38 +162,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CADF828306B7C28A08296A2229590CB /* Pods-YUTableLayoutView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				3380CA8DF379DED202F22036F829EE4C /* Pods-YUTableLayoutView_Example.modulemap */,
-				1C5B13804926F62C0B0E51E3D5B18C58 /* Pods-YUTableLayoutView_Example-acknowledgements.markdown */,
-				8C7AF14585FB1A2B217CAFC6347BB592 /* Pods-YUTableLayoutView_Example-acknowledgements.plist */,
-				1BB5E6624EA1C69A91982156B094FC99 /* Pods-YUTableLayoutView_Example-dummy.m */,
-				AAE8C638844ADB13CA7135B802DA2D3D /* Pods-YUTableLayoutView_Example-frameworks.sh */,
-				A0DFD823B6AE1BC504EE6B43503DE2CA /* Pods-YUTableLayoutView_Example-Info.plist */,
-				FE1F6B1825D637E16372F02EB01FCE61 /* Pods-YUTableLayoutView_Example-umbrella.h */,
-				62226D76294C1DCB1B9FADE6AEB08247 /* Pods-YUTableLayoutView_Example.debug.xcconfig */,
-				BF990735BFA6C1C1B4EE07D794473070 /* Pods-YUTableLayoutView_Example.release.xcconfig */,
-			);
-			name = "Pods-YUTableLayoutView_Example";
-			path = "Target Support Files/Pods-YUTableLayoutView_Example";
-			sourceTree = "<group>";
-		};
-		1F1C3E9F429F0B3BFF6E8C24452F7A5A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0CADF828306B7C28A08296A2229590CB /* Pods-YUTableLayoutView_Example */,
-				7D804E3922D8E87FED165DD4B1301912 /* Pods-YUTableLayoutView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		20231BA9DA8BE13CA3DF3EAC2294162F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				A2019E4E298A66CE52B7A35A7860E172 /* YUTableLayoutView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		204F818CAD1FCDF197E76AE8C5E8AC66 /* Pods-YUTableLayoutView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CDF98D8435E0F9A5C58A26444DDBDA0D /* Pods-YUTableLayoutView_Example.modulemap */,
+				4D6A1F22AD6702ED7491D48299F8B2C2 /* Pods-YUTableLayoutView_Example-acknowledgements.markdown */,
+				0909DD29672016EA461A4635D3AE264D /* Pods-YUTableLayoutView_Example-acknowledgements.plist */,
+				BCA1945FF630F52F60AD54DC3F0BCFAB /* Pods-YUTableLayoutView_Example-dummy.m */,
+				7F4846FF51ECC4EB6858EEF90AB7D0C5 /* Pods-YUTableLayoutView_Example-frameworks.sh */,
+				580030EDA3D7E7702FE436FDD85BFB71 /* Pods-YUTableLayoutView_Example-Info.plist */,
+				D445DEA9F94998020AE092AA7870EBAA /* Pods-YUTableLayoutView_Example-umbrella.h */,
+				8EC98F0A4A92436D9E2E0E01C5D17CC3 /* Pods-YUTableLayoutView_Example.debug.xcconfig */,
+				6B469077F7E56DBC3E545217C7E89271 /* Pods-YUTableLayoutView_Example.release.xcconfig */,
+			);
+			name = "Pods-YUTableLayoutView_Example";
+			path = "Target Support Files/Pods-YUTableLayoutView_Example";
+			sourceTree = "<group>";
+		};
+		443D448E44E1816EC9D5095B6AF6A98C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				204F818CAD1FCDF197E76AE8C5E8AC66 /* Pods-YUTableLayoutView_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		60B5D47567492DF4762E617AA1FCBB36 /* Support Files */ = {
@@ -279,22 +251,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7D804E3922D8E87FED165DD4B1301912 /* Pods-YUTableLayoutView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				20BB2C9506931D1B8DCD8E50ED801733 /* Pods-YUTableLayoutView_Tests.modulemap */,
-				74FF219BAB7D0F80F65DF29F5DE69817 /* Pods-YUTableLayoutView_Tests-acknowledgements.markdown */,
-				DD951930A86B49E3A2BBBB615863511B /* Pods-YUTableLayoutView_Tests-acknowledgements.plist */,
-				6464DD5EE246F3F69B106D1F92575FF4 /* Pods-YUTableLayoutView_Tests-dummy.m */,
-				310D3263E4869C23BE0D3659B4D1244D /* Pods-YUTableLayoutView_Tests-Info.plist */,
-				0B32477D9E67A7A72DE9C0A3D02898F5 /* Pods-YUTableLayoutView_Tests-umbrella.h */,
-				CF477CA6C4A95F9F522D132F930F7617 /* Pods-YUTableLayoutView_Tests.debug.xcconfig */,
-				C62CC269A46EBB9E8601CD6DDD5D6605 /* Pods-YUTableLayoutView_Tests.release.xcconfig */,
-			);
-			name = "Pods-YUTableLayoutView_Tests";
-			path = "Target Support Files/Pods-YUTableLayoutView_Tests";
-			sourceTree = "<group>";
-		};
 		A2019E4E298A66CE52B7A35A7860E172 /* YUTableLayoutView */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,20 +303,9 @@
 				20231BA9DA8BE13CA3DF3EAC2294162F /* Development Pods */,
 				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
-				D4666DE5067067E363BD62156775A487 /* Products */,
-				1F1C3E9F429F0B3BFF6E8C24452F7A5A /* Targets Support Files */,
+				EBDAB5C6707F1EDBB144B47301D522B0 /* Products */,
+				443D448E44E1816EC9D5095B6AF6A98C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D4666DE5067067E363BD62156775A487 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
-				32A5FF942463CB9D12D0421C0D112526 /* Pods_YUTableLayoutView_Example.framework */,
-				E0635796D56E4A163EA9F780196FCDCF /* Pods_YUTableLayoutView_Tests.framework */,
-				621DC65F2062AC0784EA000557316AB9 /* YUTableLayoutView.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */ = {
@@ -370,6 +315,16 @@
 				B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBDAB5C6707F1EDBB144B47301D522B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				32A5FF942463CB9D12D0421C0D112526 /* Pods_YUTableLayoutView_Example.framework */,
+				621DC65F2062AC0784EA000557316AB9 /* YUTableLayoutView.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,14 +358,6 @@
 				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
 				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
 				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1BB222ED3A4948FA67C0C94207A9442 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE066191E9B72735DBFA963B7273D8B3 /* Pods-YUTableLayoutView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,25 +430,6 @@
 			productReference = 621DC65F2062AC0784EA000557316AB9 /* YUTableLayoutView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D215714125201EB5D93005EF878E2BAC /* Pods-YUTableLayoutView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7295D7037CAC365F47015902D5780051 /* Build configuration list for PBXNativeTarget "Pods-YUTableLayoutView_Tests" */;
-			buildPhases = (
-				D1BB222ED3A4948FA67C0C94207A9442 /* Headers */,
-				2240E100F98D1C016C6995862E47EBF8 /* Sources */,
-				30BCA299D9B7CEFC0BF94FA1D12B8B08 /* Frameworks */,
-				F3F470B69B0285EE72BF573B502C7DB1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				141C3F6290FAE3EA8B26DEDF6A095411 /* PBXTargetDependency */,
-			);
-			name = "Pods-YUTableLayoutView_Tests";
-			productName = "Pods-YUTableLayoutView_Tests";
-			productReference = E0635796D56E4A163EA9F780196FCDCF /* Pods_YUTableLayoutView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -520,13 +448,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D4666DE5067067E363BD62156775A487 /* Products */;
+			productRefGroup = EBDAB5C6707F1EDBB144B47301D522B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				6870819B2B77DB1A5F43DA77C7A7B5AD /* Pods-YUTableLayoutView_Example */,
-				D215714125201EB5D93005EF878E2BAC /* Pods-YUTableLayoutView_Tests */,
 				81E0D0ACA587D94ED48716EAEF5BF88B /* YUTableLayoutView */,
 			);
 		};
@@ -548,13 +475,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3F470B69B0285EE72BF573B502C7DB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -591,14 +511,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2240E100F98D1C016C6995862E47EBF8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B416B41BD8741CCD68CD6C6D20CF2F9 /* Pods-YUTableLayoutView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D49FC3D60D97D56C1EE4AC530E41A36B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -621,12 +533,6 @@
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
 			targetProxy = 74D701EFB9E26F4CBC29C9DD0C9F2DE1 /* PBXContainerItemProxy */;
-		};
-		141C3F6290FAE3EA8B26DEDF6A095411 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-YUTableLayoutView_Example";
-			target = 6870819B2B77DB1A5F43DA77C7A7B5AD /* Pods-YUTableLayoutView_Example */;
-			targetProxy = 4DA3A8057C08161E8020331A9B38431C /* PBXContainerItemProxy */;
 		};
 		B422899AA5769DD6BE9D185F01448E08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -671,7 +577,7 @@
 		};
 		3FC549F6DB3FC6965D2A9910FE5D46FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF990735BFA6C1C1B4EE07D794473070 /* Pods-YUTableLayoutView_Example.release.xcconfig */;
+			baseConfigurationReference = 6B469077F7E56DBC3E545217C7E89271 /* Pods-YUTableLayoutView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -795,73 +701,6 @@
 			};
 			name = Release;
 		};
-		633618CD91BA48FD30BB90B4D786AFB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C62CC269A46EBB9E8601CD6DDD5D6605 /* Pods-YUTableLayoutView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YUTableLayoutView_Tests/Pods-YUTableLayoutView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YUTableLayoutView_Tests/Pods-YUTableLayoutView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		77FE4902241CE722D89BDD3761F3BE6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF477CA6C4A95F9F522D132F930F7617 /* Pods-YUTableLayoutView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YUTableLayoutView_Tests/Pods-YUTableLayoutView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YUTableLayoutView_Tests/Pods-YUTableLayoutView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -959,7 +798,7 @@
 		};
 		A14EAEBDAF3EB0D6199D58F6BF95EB77 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62226D76294C1DCB1B9FADE6AEB08247 /* Pods-YUTableLayoutView_Example.debug.xcconfig */;
+			baseConfigurationReference = 8EC98F0A4A92436D9E2E0E01C5D17CC3 /* Pods-YUTableLayoutView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1038,15 +877,6 @@
 			buildConfigurations = (
 				CB914CE2FC3531FB43FD251C39707300 /* Debug */,
 				1AB9595060E8A370CBA7866F6C8F173C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7295D7037CAC365F47015902D5780051 /* Build configuration list for PBXNativeTarget "Pods-YUTableLayoutView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				77FE4902241CE722D89BDD3761F3BE6C /* Debug */,
-				633618CD91BA48FD30BB90B4D786AFB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

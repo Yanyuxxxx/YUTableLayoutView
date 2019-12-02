@@ -7,7 +7,7 @@ DEPENDENCIES:
   - YUTableLayoutView (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - Masonry
 
 EXTERNAL SOURCES:
@@ -18,6 +18,6 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   YUTableLayoutView: 4220515d3a7fb5ae4c0e13452a810cd6f52d3eb7
 
-PODFILE CHECKSUM: b080f546d2e25803e506b13774ac4a51499736c6
+PODFILE CHECKSUM: ea096e283f74590685c8f21961e535ec4f4e2f7b
 
 COCOAPODS: 1.8.4

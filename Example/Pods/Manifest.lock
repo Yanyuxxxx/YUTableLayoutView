@@ -1,15 +1,22 @@
 PODS:
-  - YUTableLayoutView (0.1.0)
+  - Masonry (1.1.0)
+  - YUTableLayoutView (0.0.1):
+    - Masonry
 
 DEPENDENCIES:
   - YUTableLayoutView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   YUTableLayoutView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YUTableLayoutView: 6e208de0f45fdecf5a0b6f03c0d20e9706bc3ddb
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YUTableLayoutView: 4220515d3a7fb5ae4c0e13452a810cd6f52d3eb7
 
 PODFILE CHECKSUM: b080f546d2e25803e506b13774ac4a51499736c6
 

@@ -1,0 +1,35 @@
+{
+  "name": "YUTableLayoutView",
+  "version": "0.0.2",
+  "summary": "线性布局框架",
+  "description": "线性布局框架",
+  "homepage": "https://github.com/Yanyuxxxx/YUTableLayoutView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yanyuxxxx": "812363941@qq.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/YUTableLayoutView/0.0.2/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "YUTableLayoutView.framework/Headers/*",
+    "YUTableLayoutView.framework/Versions/A/Headers/*"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  },
+  "vendored_frameworks": "YUTableLayoutView.framework",
+  "public_header_files": [
+    "YUTableLayoutView.framework/Headers/*",
+    "YUTableLayoutView.framework/Versions/A/Headers/*"
+  ]
+}

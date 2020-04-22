@@ -4,9 +4,12 @@ source 'https://github.com/Yanyuxxxx/YURepo.git'
 use_frameworks!
 platform :ios, '8.0'
 
+plugin 'cocoapods-bin'
+use_binaries!
+
 target 'YUTableLayoutView_Example' do
 
-  pod 'YUTableLayoutView', :path => '../'
-#  pod 'YUTableLayoutView'
+#  pod 'YUTableLayoutView', :path => '../'
+  pod 'YUTableLayoutView', '0.0.2'
 
 end

@@ -1,6 +1,6 @@
 {
   "name": "YUTableLayoutView",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "线性布局框架",
   "description": "线性布局框架",
   "homepage": "https://github.com/Yanyuxxxx/YUTableLayoutView",
@@ -12,7 +12,7 @@
     "Yanyuxxxx": "812363941@qq.com"
   },
   "source": {
-    "http": "http://localhost:8080/frameworks/YUTableLayoutView/0.0.2/zip",
+    "http": "http://localhost:8080/frameworks/YUTableLayoutView/0.0.3/zip",
     "type": "zip"
   },
   "platforms": {

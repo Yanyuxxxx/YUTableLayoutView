@@ -24,7 +24,7 @@ pod bin spec create
 
 # 构建二进制包
 echo -e "\n开始构建二进制包"
-pod bin archive $pod_name.podspec --sources=$sources
+pod bin archive ${pod_name}.podspec --sources=$sources
 if [ $? -ne 0 ]; then
     echo -e "\033[31m构建二进制包失败 \033[0m" 
     exit 1
@@ -51,7 +51,7 @@ fi
 
 # 验证二进制podspec
 echo -e "\n开始验证二进制podspec"
-pod bin spec lint --binary "${pod_name}.binary.podspec.json" --sources=$sources --allow-warnings
+pod bin spec lint --binary ${pod_name}.binary.podspec.json --sources=$sources --allow-warnings
 if [ $? -ne 0 ]; then
     echo -e "\033[31m验证二进制podspec失败 \033[0m" 
     exit 1
@@ -61,13 +61,13 @@ fi
 
 # 发布二进制组件
 echo -e "\n开始发布二进制组件"
-pod bin repo push --binary "${pod_name}.binary.podspec.json" --sources=$sources --allow-warnings
+pod bin repo push --binary ${pod_name}.binary.podspec.json --sources=$sources --allow-warnings
 if [ $? -ne 0 ]; then
     echo -e "\033[31m发布二进制组件失败 \033[0m" 
     exit 1
 else
     echo -e "\033[32m发布二进制组件成功 \033[0m"
-    rm -f ./{pod_name}.binary.podspec.json
+    rm -f ./${pod_name}.binary.podspec.json
 fi
 
 

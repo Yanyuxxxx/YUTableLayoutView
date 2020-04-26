@@ -38,7 +38,6 @@ echo "开始清除"
 curl -X 'DELETE' "${binary_server_path}/${pod_name}/${pod_version}" -O -J
 echo "清除成功"
 curl $binary_server_path -F "name=${pod_name}" -F "version=${pod_version}" -F "file=@./${pod_name}.framework.zip"
-rm -f ./${pod_name}.framework.zip
 if [ $? -ne 0 ]; then
     echo -e "\033[31m\n上传二进制包失败 \033[0m" 
 else
@@ -84,7 +83,8 @@ else
 fi
 
 
-
+# 清理现场
+rm -f ./${pod_name}.framework.zip
 
 
 

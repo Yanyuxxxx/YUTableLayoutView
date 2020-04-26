@@ -67,6 +67,7 @@ if [ $? -ne 0 ]; then
     exit 1
 else
     echo -e "\033[32m发布二进制组件成功 \033[0m"
+    rm -f ./{pod_name}.binary.podspec.json
 fi
 
 

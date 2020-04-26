@@ -1,21 +1,21 @@
 PODS:
   - Masonry (1.1.0)
-  - YUTableLayoutView (0.0.3):
+  - YUTableLayoutView (0.0.4):
     - Masonry
 
 DEPENDENCIES:
-  - YUTableLayoutView (= 0.0.3)
+  - YUTableLayoutView (= 0.0.4)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Masonry
   https://github.com/Yanyuxxxx/YUBinRepo.git:
     - YUTableLayoutView
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  YUTableLayoutView: 6c046f1f54252aec1d430a8eac9be97540dacdef
+  YUTableLayoutView: 2d0572b2ff5fa00b49edeb7b7dbe632c40b72b1c
 
-PODFILE CHECKSUM: 7e29c8ccc9e2ef4e767d34bd6ee6f928bb49022d
+PODFILE CHECKSUM: f6035b4264cffd28bdb5024b0e05d4da06d76ae4
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.7.1

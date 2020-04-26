@@ -72,7 +72,7 @@ fi
 
 # 验证源码podspec
 echo -e "\n开始验证源码podspec"
-pod bin spec lint --binary "${pod_name}.podspec" --sources=$sources --allow-warnings
+pod bin spec lint "${pod_name}.podspec" --sources=$sources --allow-warnings
 if [ $? -ne 0 ]; then
     echo -e "\033[31m验证源码podspec失败 \033[0m" 
     exit 1
@@ -82,7 +82,7 @@ fi
 
 # 发布源码组件
 echo -e "\n开始发布源码组件"
-pod bin repo push --binary "${pod_name}.podspec" --sources=$sources --allow-warnings
+pod bin repo push "${pod_name}.podspec" --sources=$sources --allow-warnings
 if [ $? -ne 0 ]; then
     echo -e "\033[31m发布源码组件失败 \033[0m" 
     exit 1

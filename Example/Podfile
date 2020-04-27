@@ -5,8 +5,9 @@ use_frameworks!
 platform :ios, '8.0'
 
 plugin 'cocoapods-bin'
-#use_binaries!
-#set_use_source_pods ['YUTableLayoutView']
+use_binaries!
+
+set_use_source_pods ['YUTableLayoutView']
 
 #use_binaries_with_spec_selector! do |spec|
 #  spec.name == 'YUTableLayoutView'
@@ -15,6 +16,6 @@ plugin 'cocoapods-bin'
 target 'YUTableLayoutView_Example' do
 
 #  pod 'YUTableLayoutView', :path => '../'
-  pod 'YUTableLayoutView', '0.0.4'
+  pod 'YUTableLayoutView', '0.0.8'
 
 end

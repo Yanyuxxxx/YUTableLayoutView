@@ -8,14 +8,65 @@ sources="https://github.com/CocoaPods/Specs.git"
 binary_server_path="http://localhost:8080/frameworks"
 
 
-# 输入信息
-echo "请输入组件名字"
-read -p "> " pod_name
-echo -e "\033[32m组件名字：${pod_name} \033[0m"
+# 读取组件名
+# 参数1: 路径；参数2: 文件后缀名
+function searchFileInFolder(){
+    for element in `ls $1`
+    do  
+        file_path=$1"/"$element
+        f_extension=${file_path##*.}
+        if [[ $f_extension == $2 ]]; then
+        	file_name=$element
+        fi
+    done
+}
+# 文件夹路径，pwd表示当前文件夹
+folder="$(pwd)"
+# 文件后缀名
+file_extension="podspec"
+# 获取到的文件路径
+file_name=""
+searchFileInFolder $folder $file_extension
+if [ -z "$file_name" ]; then
+    echo -e "\033[31m当前目录 ${folder} 没有找到${file_extension}文件 \033[0m" 
+    exit 1
+else
+	echo "podspec文件：${file_name}"
+fi
+# 组件名
+pod_name=${file_name%.*}
+echo -e "\033[32m组件名：${pod_name} \033[0m"
 
-echo "请输入要发布的组件的版本"
-read -p "> " pod_version
-echo -e "\033[32m组件版本：${pod_version} \033[0m"
+
+# 读取podspec版本
+pod_version=""
+search_str="s.version"
+target_file="${file_name}" 
+while read target_line
+do
+	# 查找到包含的内容，正则表达式获取以 ${search_str} 开头的内容
+	result=$(echo ${target_line} | grep "^${search_str}")
+	if [[ "$result" != "" ]]
+	then
+   		# echo "\n ${target_line} 包含 ${search_str}"
+   		# 分割字符串，是变量名称，不是变量的值; 前面的空格表示分割的字符，后面的空格不可省略
+		array=(${result// / })  
+		# 数组长度
+		count=${#array[@]}
+		# 获取最后一个元素内容
+		version=${array[count - 1]}
+		# 去掉 '
+		version=${version//\'/}
+		pod_version=$version
+	fi
+done < $target_file
+# 获取到的组件版本
+if [ -z "$pod_version" ]; then
+    echo -e "\033[31m读取组件版本异常 \033[0m" 
+    exit 1
+else
+	echo -e "\033[32m组件版本：${pod_version} \033[0m"
+fi
 
 
 # 创建二进制 podspec

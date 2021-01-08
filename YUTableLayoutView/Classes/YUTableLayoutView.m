@@ -49,7 +49,7 @@
 }
 
 
-#pragma mark row
+#pragma mark - row
 - (YUTableLayoutView *)addRow:(void(^)(UIView *))block {
     return [self addRowOffset:0 block:block];
 }
@@ -68,7 +68,7 @@
 }
 
 
-#pragma mark clear
+#pragma mark - clear
 - (void)clearAllRows {
     for (UIView *row in self.rows) {
         [row removeFromSuperview];
